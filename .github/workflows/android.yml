@@ -30,7 +30,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v3
         with:
-          java-version: '11'  # Specify Java version
+          java-version: '17'  # Specify Java version
           distribution: 'adopt'
 
       # Caches Gradle packages to speed up builds
