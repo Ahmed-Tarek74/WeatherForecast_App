@@ -42,6 +42,12 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle-
 
+        # Create local.properties file
+      - name: Create local.properties
+        run: |
+          echo "sdk.dir=/opt/android-sdk" >> local.properties
+          echo "YOUR_API_KEY=${{ secrets.WEATHER_FORECAST_API }}" >> local.properties
+
       # Lint the project
       - name: Lint the project
         run: ./gradlew lint
