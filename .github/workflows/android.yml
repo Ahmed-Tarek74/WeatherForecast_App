@@ -20,7 +20,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v3
         with:
-          java-version: '11' # Use Java 11 or your preferred version
+          java-version: '11'  # Specify Java version
           distribution: 'adopt'
 
       - name: Cache Gradle packages
