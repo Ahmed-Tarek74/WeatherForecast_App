@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="icon">%1$sicon</string>
+    <string name="wind_speed_icon">Wind speed Icon</string>
+    <string name="humidity_icon">Humidity Icon</string>
+    <string name="pressure_icon">pressure icon</string>
+    <string name="loading">Loading..</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="pressure">Pressure</string>
+    <string name="app_title">SkyCastApp</string>
+    <string name="daily_forecast_title">7-Days Weather Forecast</string>
+    <string name="daily_forecast_btn">7-Days Forecast</string>
+</resources>

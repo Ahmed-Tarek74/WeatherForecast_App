@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_icon">location icon</string>
+    <string name="search_hint">"Enter city name ..</string>
+    <string name="no_result_found_for">"No result found for %1$s "</string>
+    <string name="city_saved_successfully">%1$s saved successfully for next time</string>
+    <string name="failed_to_save_city">Failed to save city: %1$s</string>
+</resources>
